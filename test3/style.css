@@ -1,0 +1,170 @@
+/*********/
+/* FONTS */
+/*********/
+
+@font-face {
+  font-family: "MuseoSans500";
+  src: url("MuseoSans_500.otf");
+}
+
+@font-face {
+  font-family: "MuseoSans700";
+  src: url("MuseoSans_700.otf");
+}
+
+@font-face {
+  font-family: "MuseoSans900";
+  src: url("MuseoSans_900.otf");
+}
+
+/*********/
+/* RESET */
+/*********/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "MuseoSans900";
+  font-weight: normal!important;
+  overflow: hidden;
+  cursor:none;
+}
+
+/*********/
+/* SETUP */
+/*********/
+
+.wrapper {
+  margin: auto;
+  width: 1080px;
+  height: 1920px;
+}
+
+/************/
+/* ELEMENTS */
+/************/
+
+.content_1 {
+  background-image: url("bg.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  height: 50%;
+}
+
+.content_2 {
+  background-image: url("image.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-color: #000000;
+  height: 50%;
+}
+
+.logo {
+  padding-top: 150px;
+  padding-left: 60px;
+}
+
+.intro {
+  width: 660px;
+  padding-top: 230px;
+  padding-left: 40px;
+}
+
+.intro h3 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.intro p {
+  font-family: "MuseoSans500";
+  font-size: 31px;
+  padding-top: 40px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.menu {
+  padding-top: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 990px;
+}
+
+h1{
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn-copy {
+  width: 300px;
+  height: 90px;
+  font-size: 26px;
+  background-color: #003B54;
+  color: #fff;
+  border: 7px solid #6ACADD;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.container-result {
+  height: 490px;
+}
+
+.menu-result p {
+  font-family: "MuseoSans500";
+  font-size: 20px;
+}
+
+.btn-result {
+  font-size: 26px;
+  background-color: #0000003a;
+  color: #fff;
+  border: 5px solid #6ACADD;
+  border-radius: 60px;
+  padding: 16px 16px 16px;
+  line-height: 20px;
+  opacity: 0.3;
+}
+
+.result1 {
+  position: absolute;
+  width: 330px;
+  height: 110px;
+  margin-top: 230px;
+  margin-left: 30px;
+}
+
+.result2 {
+  position: absolute;
+  width: 380px;
+  height: 140px;
+  margin-top: 140px;
+  margin-left: 360px;
+}
+
+.result3 {
+  position: absolute;
+  width: 380px;
+  height: 110px;
+  margin-top: 350px;
+  margin-left: 660px;
+}
+
+.copy1 p, .copy2 p {
+  font-family: "MuseoSans500";
+  font-size: 20px;
+  color: #fff;
+}
+
+.copy1 p {
+  padding-top: 320px;
+  padding-left: 60px;
+}
+
+.copy2 p {
+  padding-top: 240px;
+  padding-left: 270px;
+  text-align: center;
+}
