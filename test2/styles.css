@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: MuseoSans;
+    font-weight: normal!important;
+}
+
+@font-face {
+    font-family: MuseoSans;
+    src: url(MuseoSans_500.otf);
+    font-weight: lighter;
+  }
+@font-face {
+    font-family: MuseoSans;
+    src: url(MuseoSans_700.otf);
+    font-weight: normal;
+  }
+@font-face {
+    font-family: MuseoSans;
+    src: url(MuseoSans_900.otf);
+    font-weight: bold;
+  }
+
+body{
+    background-color: gray;
+}
+
+.main{
+    width: 1080px;
+    margin: auto;
+    background-color: black;
+    position: relative;
+}
+
+.btn-panel{
+  position: fixed;
+  top: 15px;
+  right: 0;
+  width: 40px;
+  height: 147px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #00DBCF 1%, rgb(183, 204, 252));
+}
+
+.button{
+  background: linear-gradient(to right, #00DBCF 1%, rgb(82, 102, 150));
+  margin: auto;
+  width: 32px;
+  border-radius: 50%;
+  border: none;
+}

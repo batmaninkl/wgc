@@ -10,6 +10,7 @@
 	font-family: MuseoSans;
 	src: url(MuseoSans_700.otf);
   }
+ 
   body{
 	font-family: "MuseoSans";
     height: 1920px;
@@ -45,7 +46,8 @@
 
 	.dvd_fixed_slider { position: relative; }
 	.dvd_fixed_slider
-		.slides_bg > div { height: 100vh; background-size: cover; background-attachment: fixed; background-position: 50%; }
+		.slides_bg > div { height: 150vh; background-size: cover; background-attachment: fixed; background-position: 50%;    overflow-y:scroll;
+			overflow-x:scroll; }
 
 	.dvd_fixed_slider
 		.slides_fg {
@@ -82,13 +84,20 @@
 		.active
 			.slide_dial {
 				animation: rotate_dial .5s;
+				width: 800px;
 			}
 	@keyframes rotate_dial { 100% { -webkit-transform: rotate(72deg); transform:rotate(72deg); } }
 
 	.dvd_fixed_slider
 		.slides_fg
 			.slide_text {
-				width: 66%;
+				width: 40%;
+				top: 680px;
+				right: 140px;
+				position: absolute;
+				border: 2px solid#6AC9DC;
+				border-radius: 25px;
+				padding: 15px 10px;
 			}
 	.dvd_fixed_slider
 		.slides_fg
